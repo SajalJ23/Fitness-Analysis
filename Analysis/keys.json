@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "predictive-health-monitoring",
+  "private_key_id": "a9fd4d5a6d4ce6b05a6cfa25e8fcc0953b609561",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOF+cJz1UDpWaB\nbPuFbUUxVfnNvIonEcGFeYNHFhQmgfcl/nGjkRzcke8JVwBZU+gFtX1Ve8V0W917\nZo1EoeASQ2Rd+4skvAPyN24N3I7cPC3fkTLq807KFcKDmtE5jiggfF5is8EW6YpW\nRp1onL6zZ//2Db/H+Hlsw8rW0qC+4i1CMlUAymTinNUBBt9srIT4aX9JSveI0kvv\nINoxqGoUWpnoVaw25RhkKq/y0thFrPN+M1M8SbxDN1B2HyU/WutFhkUbIelNisUO\nNkYvl3CvStwLk2PzRD4Vvf0U8q3fLPaosB6g6ctd6CtZ1lmmXWo9tJX0SgSHYsQb\nEgJwAXPtAgMBAAECggEADua/s9/2cb32QFeY2b/5xQmw9x0nBbtSWVwyGll1vwaz\nep81aGzQCqsQPsYNi9KV3+shuGTWNSXa84wfHO4xuqL99o//HU/tNB3/D92u7wHN\n6lCVadNfqBvJ1ZoD1JbF/s/8mMPjq0xbDjEVurrnTKcGz5ZqaQ3QT8WEsiLcGw5e\nYsDdzTx2IZ5lN+F9MqpC8ylNN8uV6wQZrq0WeO8UzC7aFbTjVZbw+mUh2XgEFRw5\nNlAzDOoI8q/qgSkIgrSCVD6oQP86nkkq8TZF23McoyDjcG+7x9XqQa3+OJ5/MyCR\n9PuJzNdorhLHNCmba3uBwFpUSaHltGwynASCFdRd6QKBgQD0HIfO7K4DbPsNIcuM\nOBun36NiDbfODWDvGUNmJxp9Wlmcws4HPhuzRGjR+IZwjnHkzdZH4NRVakkadnpt\nBJNAb/GAo2zIjfVKfaQCPb5MLcnQpuTAKzHW5u1BdYjsu4KDptZt2V7wLn4RvxDQ\nMcU2gs+m3w9U2Ess9bQLefEAhQKBgQDYIWFKWnRk1zivShXuZpA1iy8y0uUTBT67\nG1yyF3/X4sVV82tFMko8SSpp+huOHav6dY/+DnuCbIdNP2B8grQgZ7Rxpgn+i6ac\nOVrkFq04bY8Blpm/XvBAAorP++Hlm7PvXU4jhnHrDk8DpGzcMZp/vcDTC9ZEkmo0\nrdTQL092SQKBgQCXhFXvZAymZ7Bz+DQFNpZD3pXkuKsLpFY0UjP5ZfAVOk1A9dE3\nwZ8j6CQ/n8iieGfNIs4ME0r4MV5qpHtcy2gyqMj3lXhiC2ri75UrJvPFCO6pKc32\nUVlAEFnXNYLlnYVm/dk+mZtJ7TGnBjcDYsEMEqmc4/r6KL6Qi3lTXj7umQKBgBu+\npTujQv/S9Q7jhs800VxeQq/WjNuVN8lTKOIfzCSNkuGGvwWCAC+fANfb6H+k5Xfg\ncZyehVJn1jKfaSZyrObgCTTxqKTJjpjNcBKJqrDst4fvqkr7yAGfkexDHGuaQk3+\n/1HmJ2eSTahdCjB2Gaw+UquFAHuLBCFBE2mqORwpAoGBAMKhusWEE9+WXE23gKAx\naxqUO9whUmISZ25fBlAVDeLdh6KzACCuqI0PnRKU1c8UCIpYxTflCfKRVwf0jtEq\nDEpcYk4ixfKrnNvZVscaGAZHUERg6SMWiEFdXmI0OH2Y1TATtSUk0ALvXa2s1KAK\nn7TOulkmZ98uT/e3zPIP/u5H\n-----END PRIVATE KEY-----\n",
+  "client_email": "healthanalysis@predictive-health-monitoring.iam.gserviceaccount.com",
+  "client_id": "100427335422095769262",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/healthanalysis%40predictive-health-monitoring.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

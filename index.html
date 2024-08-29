@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Feedback Form</h1>
+
+        <form id="fitness-feedback-form">
+            <div class="question">
+                <p>What is your Name?</p>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="question">
+                <p>What is your Gender?</p>
+                <div class="options">
+                    <input type="radio" id="q1-opt1" name="question1" value="Male" required>
+                    <label for="q1-opt1">Male</label>
+                    <input type="radio" id="q1-opt2" name="question1" value="Female">
+                    <label for="q1-opt2">Female</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What is your Age?</p>
+                <div class="options">
+                    <input type="radio" id="q2-opt1" name="question2" value="15 to 18" required>
+                    <label for="q2-opt1">15 to 18</label> <br>
+                    <input type="radio" id="q2-opt2" name="question2" value="19 to 25">
+                    <label for="q2-opt2">19 to 25</label> <br>
+                    <input type="radio" id="q2-opt3" name="question2" value="26 to 30">
+                    <label for="q2-opt3">26 to 30</label><br>
+                    <input type="radio" id="q2-opt4" name="question2" value="30 to 40">
+                    <label for="q2-opt4">30 to 40</label><br>
+                    <input type="radio" id="q2-opt5" name="question2" value="Poor">
+                    <label for="q2-opt5">40 and above</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>How important is exercise to you?</p>
+                <div class="options">
+                    <input type="radio" id="q3-opt1" name="question3" value="1" required>
+                    <label for="q3-opt1">1</label><br>
+                    <input type="radio" id="q3-opt2" name="question3" value="2">
+                    <label for="q3-opt2">2</label><br>
+                    <input type="radio" id="q3-opt3" name="question3" value="3">
+                    <label for="q3-opt3">3</label><br>
+                    <input type="radio" id="q3-opt4" name="question3" value="4">
+                    <label for="q3-opt4">4</label><br>
+                    <input type="radio" id="q3-opt5" name="question3" value="5">
+                    <label for="q3-opt5">5</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>How do you describe your current level of fitness?</p>
+                <div class="options">
+                    <input type="radio" id="q4-opt1" name="question4" value="Perfect" required>
+                    <label for="q4-opt1">Perfect</label><br>
+                    <input type="radio" id="q4-opt2" name="question4" value="Very good">
+                    <label for="q4-opt2">Very good</label><br>
+                    <input type="radio" id="q4-opt3" name="question4" value="Good">
+                    <label for="q4-opt3">Good</label><br>
+                    <input type="radio" id="q4-opt4" name="question4" value="Average">
+                    <label for="q4-opt4">Average</label><br>
+                    <input type="radio" id="q4-opt5" name="question4" value="Unfit">
+                    <label for="q4-opt5">Unfit</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>How often do you exercise?</p>
+                <div class="options">
+                    <input type="radio" id="q5-opt1" name="question5" value="Never" required>
+                    <label for="q5-opt1">Never</label><br>
+                    <input type="radio" id="q5-opt2" name="question5" value="1 to 2 times a week">
+                    <label for="q5-opt2">1 to 2 times a week</label><br>
+                    <input type="radio" id="q5-opt3" name="question5" value="3 to 4 times a week">
+                    <label for="q5-opt3">3 to 4 times a week</label><br>
+                    <input type="radio" id="q5-opt4" name="question5" value="5 to 6 times a week">
+                    <label for="q5-opt4">5 to 6 times a week</label><br>
+                    <input type="radio" id="q5-opt5" name="question5" value="Everyday">
+                    <label for="q5-opt5">Everyday</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What barriers, if any, prevent you from exercising more regularly? <br>(Please select all that apply)</p>
+                <div class="options">
+                    <input type="checkbox" id="q6-opt1" name="question6" value="I don't have enough time">
+                    <label for="q6-opt1">I don't have enough time</label><br>
+                    <input type="checkbox" id="q6-opt2" name="question6" value="I can't stay motivated">
+                    <label for="q6-opt2">I can't stay motivated</label><br>
+                    <input type="checkbox" id="q6-opt3" name="question6" value="I'll become too tired">
+                    <label for="q6-opt3">I'll become too tired</label><br>
+                    <input type="checkbox" id="q6-opt4" name="question6" value="I don't really enjoy exercising">
+                    <label for="q6-opt4">I don't really enjoy exercising</label><br>
+                    <input type="checkbox" id="q6-opt5" name="question6" value="I exercise regularly with no barriers">
+                    <label for="q6-opt5">I exercise regularly with no barriers</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What form(s) of exercise do you currently participate in? <br>(Please select all that apply)</p>
+                <div class="options">
+                    <input type="checkbox" id="q7-opt1" name="question7" value="I don't really exercise">
+                    <label for="q7-opt1">I don't really exercise</label><br>
+                    <input type="checkbox" id="q7-opt2" name="question7" value="Walking or jogging">
+                    <label for="q7-opt2">Walking or jogging</label><br>
+                    <input type="checkbox" id="q7-opt3" name="question7" value="Swimming">
+                    <label for="q7-opt3">Swimming</label><br>
+                    <input type="checkbox" id="q7-opt4" name="question7" value="Gym">
+                    <label for="q7-opt4">Gym</label><br>
+                    <input type="checkbox" id="q7-opt5" name="question7" value="Yoga">
+                    <label for="q7-opt5">Yoga</label><br>
+                    <input type="checkbox" id="q7-opt6" name="question7" value="Team sport">
+                    <label for="q7-opt6">Team sport</label><br>
+                    <input type="checkbox" id="q7-opt7" name="question7" value="Zumba dance">
+                    <label for="q7-opt7">Zumba dance</label><br>
+                    <input type="checkbox" id="q7-opt8" name="question7" value="Lifting weights">
+                    <label for="q7-opt8">Lifting weights</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Do you exercise ___________ ?</p>
+                <div class="options">
+                    <input type="radio" id="q8-opt1" name="question8" value="I don't really exercise" required>
+                    <label for="q8-opt1">I don't really exercise</label><br>
+                    <input type="radio" id="q8-opt2" name="question8" value="Alone">
+                    <label for="q8-opt2">Alone</label><br>
+                    <input type="radio" id="q8-opt3" name="question8" value="With a group">
+                    <label for="q8-opt3">With a group</label><br>
+                    <input type="radio" id="q8-opt4" name="question8" value="With a friend">
+                    <label for="q8-opt4">With a friend</label><br>
+                    <input type="radio" id="q8-opt5" name="question8" value="Within a class environment">
+                    <label for="q8-opt5">Within a class environment</label><br>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>What time if the day do you prefer to exercise?</p>
+                <div class="options">
+                    <input type="radio" id="q9-opt1" name="question9" value="Early morning" required>
+                    <label for="q9-opt1">Early morning</label><br>
+                    <input type="radio" id="q9-opt2" name="question9" value="Afternoon">
+                    <label for="q9-opt2">Afternoon</label><br>
+                    <input type="radio" id="q9-opt3" name="question9" value="Evening">
+                    <label for="q9-opt3">Evening</label><br>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>How long do you spend exercising per day?</p>
+                <div class="options">
+                    <input type="radio" id="q10-opt1" name="question10" value="I don't really exercise" required>
+                    <label for="q10-opt1">I don't really exercise</label><br>
+                    <input type="radio" id="q10-opt2" name="question10" value="30 minutes">
+                    <label for="q10-opt2">30 minutes</label><br>
+                    <input type="radio" id="q10-opt3" name="question10" value="1 hour">
+                    <label for="q10-opt3">1 hour</label><br>
+                    <input type="radio" id="q10-opt4" name="question10" value="2 hours">
+                    <label for="q10-opt4">2 hours</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Would you say you eat a healthy balanced diet ?</p>
+                <div class="options">
+                    <input type="radio" id="q11-opt1" name="question11" value="Yes" required>
+                    <label for="q11-opt1">Yes</label><br>
+                    <input type="radio" id="q11-opt2" name="question11" value="Not always">
+                    <label for="q11-opt2">Not always</label><br>
+                    <input type="radio" id="q11-opt3" name="question11" value="No">
+                    <label for="q11-opt3">No</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What prevents you from eating a healthy balanced diet, If any? <br>(Please select all that apply)</p>
+                <div class="options">
+                    <input type="checkbox" id="q12-opt1" name="question12" value="Ease of access to fast food">
+                    <label for="q12-opt1">Ease of access to fast food</label><br>
+                    <input type="checkbox" id="q12-opt2" name="question12" value="Temptation and cravings">
+                    <label for="q12-opt2">Temptation and cravings</label><br>
+                    <input type="checkbox" id="q12-opt3" name="question12" value="Lack of time">
+                    <label for="q12-opt3">Lack of time</label><br>
+                    <input type="checkbox" id="q12-opt4" name="question12" value="Cost">
+                    <label for="q12-opt4">Cost</label><br>
+                    <input type="checkbox" id="q12-opt5" name="question12" value="I have a balanced diet">
+                    <label for="q12-opt5">I have a balanced diet</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>How healthy do you consider yourself?</p>
+                <div class="options">
+                    <input type="radio" id="q13-opt1" name="question13" value="1" required>
+                    <label for="q13-opt1">1</label><br>
+                    <input type="radio" id="q13-opt2" name="question13" value="2">
+                    <label for="q13-opt2">2</label><br>
+                    <input type="radio" id="q13-opt3" name="question13" value="3">
+                    <label for="q13-opt3">3</label><br>
+                    <input type="radio" id="q13-opt4" name="question13" value="4">
+                    <label for="q13-opt4">4</label><br>
+                    <input type="radio" id="q13-opt5" name="question13" value="5">
+                    <label for="q13-opt5">5</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Have you ever recommended your friends to follow a fitness routine?</p>
+                <div class="options">
+                    <input type="radio" id="q14-opt1" name="question14" value="Yes" required>
+                    <label for="q14-opt1">Yes</label><br>
+                    <input type="radio" id="q14-opt2" name="question14" value="No">
+                    <label for="q14-opt2">No</label><br>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Have you ever purchased a fitness equipment?</p>
+                <div class="options">
+                    <input type="radio" id="q15-opt1" name="question15" value="Yes" required>
+                    <label for="q15-opt1">Yes</label><br>
+                    <input type="radio" id="q15-opt2" name="question15" value="No">
+                    <label for="q15-opt2">No</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What motivates you to exercise? <br>(Please select all that apply)</p>
+                <div class="options">
+                    <input type="checkbox" id="q16-opt1" name="question16" value="I'm sorry ... I'm not really interested in exercising">
+                    <label for="q16-opt1">I'm sorry ... I'm not really interested in exercising</label><br>
+                    <input type="checkbox" id="q16-opt2" name="question16" value="I want to be fit">
+                    <label for="q16-opt2">I want to be fit</label><br>
+                    <input type="checkbox" id="q16-opt3" name="question16" value="I want to relieve stress">
+                    <label for="q16-opt3">I want to relieve stress</label><br>
+                    <input type="checkbox" id="q16-opt4" name="question16" value="I want to be flexible">
+                    <label for="q16-opt4">I want to be flexible</label><br>
+                    <input type="checkbox" id="q16-opt5" name="question16" value="I want to increase muscle mass and strength">
+                    <label for="q16-opt5">I want to increase muscle mass and strength</label><br>
+                </div>
+            </div>
+            
+            <button type="submit" style="margin-top: 14px;">Submit Feedback</button>
+        </form>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
